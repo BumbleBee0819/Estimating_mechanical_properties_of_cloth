@@ -2,6 +2,8 @@
 %
 % Main code for motion analysis.
 %
+% 11/08/2016 Wenyan Bi wrote it.
+
 %==================== Initialization =====================================%
 clc;clear all;
 path=pwd;
