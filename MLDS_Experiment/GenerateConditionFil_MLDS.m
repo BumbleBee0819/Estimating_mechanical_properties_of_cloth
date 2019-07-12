@@ -3,7 +3,8 @@
 % This code is used to generate condition files for MLDS experiment.
 % Input: 1) ; 2) 
 % Output: Condition Files
-%
+% 
+% 11/08/2016 Wenyan Bi wrote it.
 
 %%
 %WB% clear
