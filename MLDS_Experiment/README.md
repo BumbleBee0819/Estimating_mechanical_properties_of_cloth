@@ -22,18 +22,11 @@ If you use the codes, please cite the following papers.
 ## Usage
 1. The experimental design is explained in [our paper](https://jov.arvojournals.org/article.aspx?articleid=2682351).
 <div class="image12">
-    <p align="center">Experimental Interface</strong></p>
-    <div class="image12">
-<!--     <p align="center"> Experimental Interface </strong></p> -->
-    <p align="center"><img src="/Z_demo/ui.gif"></p>
-</div>
+    <p align="center"><img src="Z_demo/ui.gif"></p>
 </div>
 
 
-2. To run the experiment, you need run the codes in [Experiment](https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/tree/master/Experiment) with the following order:
-   1. [GetParameters_PairedComparison.m](https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/blob/master/Experiment/GetParameters_PairedComparison.m): This code must be run in the first place. It will generate all parameters for your display screen. You could check [here](https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/tree/master/Experiment/Parameter%20Explanation) for the explanation of all parameters in this code.
-   2. [GenerateConditionFil.m](https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/blob/master/Experiment/GenerateConditionFil.m): This code will generate all condition files that are used in the experiment. For example, if you have 4 video stimuli, this code will generate [6 combinations](http://mathworld.wolfram.com/Combination.html) and randomize the presentation order of them. The generated condition file will be stored in different folders for [each participant](https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/blob/master/Experiment/Bend_No_Flag/resultsFolder/wb/conditionOrderNewBend_No_Flagnew_1.txt).
-   3. [ExperimentMainProcedure_SAP2016.m](https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/blob/master/Experiment/ExperimentMainProcedure_SAP2016.m): After finishing the above two steps, execute this code to run the experiment. The collected data will be stored in different folders for [each participant](https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/tree/master/Experiment/Bend_No_Flag/resultsFolder).
+2. [ExperimentMainProcedure_SAP2016.m](https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/blob/master/Experiment/ExperimentMainProcedure_SAP2016.m): After finishing the above two steps, execute this code to run the experiment. The collected data will be stored in different folders for [each participant](https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/tree/master/Experiment/Bend_No_Flag/resultsFolder).
    
 3. We provided codes for two types of [data analysis](https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/tree/master/DataAnalysis).
    1. [PairRating_mainDataAnalysis.m](https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/blob/master/DataAnalysis/PairRating_mainDataAnalysis.m): This code analyzed the data using [Bradley–Terry models](http://www.tandfonline.com/doi/full/10.1080/10618600.2012.638220). This code will generate the single perceptual score AND plot the perceptual score against the ground truth (individual plotting). [group_plot.m](https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/blob/master/DataAnalysis/group_plot/group_plot.m) will do the group plotting. The output will be stored in [here](https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/tree/master/Output/MainOutput).
