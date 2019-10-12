@@ -16,7 +16,7 @@ This folder contains the codes for the in-lab triplet maximum likelihood differe
 ](https://jov.arvojournals.org/article.aspx?articleid=2682351). Codes in this repository are supposed to work as a template such that they should work for all triplet maximum likelihood differential scaling (MLDS) experiments with little modifications. See the project page [here](https://sites.google.com/site/wenyanbi0819/website-builder/jov_185_12?authuser=0).
 
 ## Dependencies
-The codes in [Experiment] (https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/tree/master/Experiment) are written in Matlab, which requires the [Psychtoolbox](http://psychtoolbox.org/credits/). 
+The codes require the [Psychtoolbox](http://psychtoolbox.org/credits/) in Matlab. 
 
 ## References
 If you use the codes, please cite the following papers.
@@ -33,12 +33,11 @@ If you use the codes, please cite the following papers.
     <p align="center"><img src="Z_demo/ui.gif"></p>
 </div>
 
-
-2. [ExperimentMainProcedure_SAP2016.m](https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/blob/master/Experiment/ExperimentMainProcedure_SAP2016.m): After finishing the above two steps, execute this code to run the experiment. The collected data will be stored in different folders for [each participant](https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/tree/master/Experiment/Bend_No_Flag/resultsFolder).
+2. [WindExperimentMain_MLDS.m](https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/blob/master/MLDS_Experiment/WindExperimentMain_MLDS.m): This is the main code for the experiment. The collected data will be stored in the results folders for the [Silk condition] (https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/tree/master/MLDS_Experiment/Bending_Silk/resultsFolder) and the [Cotton condition](https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/tree/master/MLDS_Experiment/Bending_Cotton/resultsFolder).
    
-3. We provided codes for two types of [data analysis](https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/tree/master/DataAnalysis).
-   1. [PairRating_mainDataAnalysis.m](https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/blob/master/DataAnalysis/PairRating_mainDataAnalysis.m): This code analyzed the data using [Bradley–Terry models](http://www.tandfonline.com/doi/full/10.1080/10618600.2012.638220). This code will generate the single perceptual score AND plot the perceptual score against the ground truth (individual plotting). [group_plot.m](https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/blob/master/DataAnalysis/group_plot/group_plot.m) will do the group plotting. The output will be stored in [here](https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/tree/master/Output/MainOutput).
-   2. [LinearRegression_logparameter.m](https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/blob/master/DataAnalysis/linear_logParameter/LinearRegression_logparameter.m): This code will do the regression plot of perceptual score v.s. the ground truth. The output will be stored in [here](https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/tree/master/Output/Regression).
-  
+3. We provided codes (https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/tree/master/MLDS_Experiment/DataAnalysis) for plotting the perceptual scales recovered by MLDS.
+   1. [DataAnalysis_MLDS.m](https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/tree/master/MLDS_Experiment/DataAnalysis/DataAnalysis_MLDS.m): This code needs to be run first, it creates "mydata.txt" to be used by [Plot_MLDS.R] (https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/tree/master/MLDS_Experiment/DataAnalysis/Plot_MLDS.R)
+   2. [Plot_MLDS.R]
+   (https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/tree/master/MLDS_Experiment/DataAnalysis/Plot_MLDS.R): This code plots the individual percetual scale for each participant and the average perceptual scale for all participants.
 ## Contact
 If you have any questions, please contact "wb1918a@american.edu".
