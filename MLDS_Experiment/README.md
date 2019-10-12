@@ -25,7 +25,7 @@ If you use the codes, please cite the following papers.
     <p align="center">Experimental Interface</strong></p>
     <div class="image12">
 <!--     <p align="center"> Experimental Interface </strong></p> -->
-    <p align="center"><img src="https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/tree/master/Z_demo/ui.gif"></p>
+    <p align="center"><img src="/Z_demo/ui.gif"></p>
 </div>
 </div>
 
