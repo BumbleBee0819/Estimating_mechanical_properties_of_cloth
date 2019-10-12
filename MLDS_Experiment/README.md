@@ -3,7 +3,11 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
-# In-lab Psychophysics Experiment: Triplet Maximum likelihood differential scaling (MLDS)
+<h1> In-lab Psychophysics Experiment: Triplet Maximum likelihood differential scaling (MLDS) </h1>
+
+<p align="center"><img width=25% src="Z_demo/ui.gif"><img width=25% src="Z_demo/ui.gif"><img width=25% src="Z_demo/ui.gif"><img width=25% src="Z_demo/ui.gif">
+
+
 This folder contains the codes for the in-lab triplet maximum likelihood differential scaling (MLDS) psychophysics experiment and the data analysis. We used these codes in our paper [Estimating mechanical properties of cloth from videos using dense motion trajectories: Human psychophysics and machine learning
 ](https://jov.arvojournals.org/article.aspx?articleid=2682351). Codes in this repository are supposed to work as a template such that they should work for all triplet maximum likelihood differential scaling (MLDS) experiments with little modifications. See the project page [here](https://sites.google.com/site/wenyanbi0819/website-builder/jov_185_12?authuser=0).
 
@@ -20,7 +24,7 @@ If you use the codes, please cite the following papers.
 ```
 
 ## Usage
-1. The experimental design is explained in [our paper](https://jov.arvojournals.org/article.aspx?articleid=2682351).
+1. The experimental design is explained in [our paper] (https://jov.arvojournals.org/article.aspx?articleid=2682351).
 <div class="image12">
     <p align="center"><img src="Z_demo/ui.gif"></p>
 </div>
