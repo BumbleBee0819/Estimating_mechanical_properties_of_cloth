@@ -1,3 +1,0 @@
-conditions	block	stimFolder	sample1	sample2	sample3
-4	1	testVideos	2	3	4
-3	1	testVideos	1	3	4

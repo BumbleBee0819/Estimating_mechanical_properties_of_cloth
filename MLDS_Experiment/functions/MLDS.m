@@ -1,23 +1,33 @@
-function MLDS
-% Maxmium Likelihood scaling experiment (triads)
+function MLDS(ScreenRect, theParameterFile)
+% Maxmium Likelihood scaling experiment (triads).
+
 % Three videos/images are shown on the screen, participants judge which two
 % looks more similar.
+% 
+% Author: Wenyan Bi
+% Date: 11/08/2016.
+% 
 %
-
-
 %%
 Screen('Preference', 'SkipSyncTests', 1)
 screenNumber = max(Screen('Screens'));
-gray=GrayIndex(screenNumber);
-[w, wRect]=Screen('OpenWindow',screenNumber, gray,[0 0 1200 800]);
+gray = GrayIndex(screenNumber);
 
-
+if (nargin == 0)
+    [w, wRect] = Screen('OpenWindow',screenNumber, gray);
+    load('GetParameters_MLDS_1200*800.mat');
+elseif (nargin == 1)
+    [w, wRect] = Screen('OpenWindow',screenNumber, gray);
+    load(theParameterFile);
+else
+    [w, wRect] = Screen('OpenWindow',screenNumber, gray, ScreenRect);
+    load(theParameterFile);
+end
 %%
 % 
 %WB% get all paths. 
 load('MLDS_path.mat');  
-%WB% I am hard coded to load the GetParamerers_MLDS for debugging purpose:
-load('GetParameters_MLDS_1200*800.mat');
+
 
 
 %%WB% I need to be commented out for debugging purpose; For the actual experiment, I need to be uncommented.   
@@ -155,7 +165,7 @@ for trial=1:ntrials
     
     %WB% draw title
     Screen('TextSize', w, title_size);    
-    messagetitle1 = 'Which fabric, Left or Right, was more DIFFERENT in their bending stiffness from the Center\n\n Pay attention the intrinsinc mateiral properties, the wind direction might be different across videos\n Press q to choose the left or p to choose the right.\n';
+    messagetitle1 = 'Which fabric, Left or Right, is more DIFFERENT in their bending stiffness from the Center?\n\n Pay attention the intrinsinc mateiral properties, the wind direction might be different across videos\n Press q to choose the left or p to choose the right.\n';
     DrawFormattedText(w, messagetitle1, upper_title_x, upper_title_y, WhiteIndex(w));
     messagetitle2 = sprintf('Block %d/%d, Trial %d / %d, Press %s to quit.\n',blockNumber, 2, trial, ntrials, targetexitname);
     DrawFormattedText(w, messagetitle2, lower_title_x, lower_title_y, WhiteIndex(w));

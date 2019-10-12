@@ -6,7 +6,7 @@ function GetParameters_MLDS(ScreenRect)
 % This code enables experimenter to modify:
 % video/Image size, Screen size.
 %  
-% 11/08/2016 Wenyan Bi wrote it.
+% 11/08/2016 Wenyan Bi <wb1918a@american.edu> wrote it.
 
 
 %% WB% 00. Define Color
@@ -24,11 +24,14 @@ screenNumber = max(Screen('Screens'));
 % Returns as default the mean gray value of screen:
 gray=GrayIndex(screenNumber);
 
-if (nargin < 1)
+
+if (nargin == 0)
     [w, wRect]=Screen('OpenWindow',screenNumber, gray);
 else
     [w, wRect]=Screen('OpenWindow',screenNumber, gray, ScreenRect);
 end
+
+
 
 [X,Y] = RectCenter(wRect);
 % Close the screen.
