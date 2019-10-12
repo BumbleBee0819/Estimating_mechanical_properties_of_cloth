@@ -20,8 +20,7 @@ If you use the codes, please cite the following papers.
 ```
 
 ## Usage
-1. The experimental design is explained in [our paper](https://s3.amazonaws.com/academia.edu.documents/45589177/SAP_Wenyan_BeiXiao_Final_0512.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1506548175&Signature=%2BQ2eE17YiLQy0BIo3%2BSwmlllD9o%3D&response-content-disposition=inline%3B%20filename%3DPerceptual_Constancy_of_Mechanical_Prope.pdf).
-
+1. The experimental design is explained in [our paper](https://jov.arvojournals.org/article.aspx?articleid=2682351).
 <div class="image12">
     <p align="center">Experimental Interface</strong></p>
     <img src="https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/blob/master/Experiment/Parameter%20Explanation/Experiment%20Interface.png" style="float:left">
