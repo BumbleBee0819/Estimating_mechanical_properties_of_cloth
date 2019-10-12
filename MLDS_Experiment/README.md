@@ -5,7 +5,11 @@
 
 <h1> In-lab Psychophysics Experiment: Triplet Maximum likelihood differential scaling (MLDS) </h1>
 
-<p align="center"><img width=25% src="Z_demo/ui.gif"><img width=25% src="Z_demo/ui.gif"><img width=25% src="Z_demo/ui.gif"><img width=25% src="Z_demo/ui.gif">
+<p align="center">
+    <img width=25% src="Z_demo/Cotton_BendingStiffness=25_Scene1.gif">
+    <img width=25% src="Z_demo/Cotton_BendingStiffness=25_Scene2.gif">
+    <img width=25% src="Z_demo/Silk_BendingStiffness=25_Scene1.gif">
+    <img width=25% src="Z_demo/Silk_BendingStiffness=25_Scene2.gif">
 
 
 This folder contains the codes for the in-lab triplet maximum likelihood differential scaling (MLDS) psychophysics experiment and the data analysis. We used these codes in our paper [Estimating mechanical properties of cloth from videos using dense motion trajectories: Human psychophysics and machine learning
