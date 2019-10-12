@@ -23,7 +23,10 @@ If you use the codes, please cite the following papers.
 1. The experimental design is explained in [our paper](https://jov.arvojournals.org/article.aspx?articleid=2682351).
 <div class="image12">
     <p align="center">Experimental Interface</strong></p>
-    <img src="https://github.com/BumbleBee0819/PsychophysicsExperiment_PairedComparison/blob/master/Experiment/Parameter%20Explanation/Experiment%20Interface.png" style="float:left">
+    <div class="image12">
+<!--     <p align="center"> Experimental Interface </strong></p> -->
+    <p align="center"><img src="https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/tree/master/Z_demo/ui.gif"></p>
+</div>
 </div>
 
 
