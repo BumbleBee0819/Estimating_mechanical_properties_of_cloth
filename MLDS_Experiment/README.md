@@ -1,6 +1,8 @@
 [![GitHub Issues](https://img.shields.io/github/issues/anfederico/Clairvoyant.svg)](https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/issues)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+![Total visitor](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=mlds_densetrajectory)
+![Visitors in today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=mlds_densetrajectory)
 
 
 <h1> In-lab Psychophysics Experiment: Triplet Maximum likelihood differential scaling (MLDS) </h1>
