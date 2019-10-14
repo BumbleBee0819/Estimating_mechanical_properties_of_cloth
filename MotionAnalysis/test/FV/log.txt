@@ -1,1 +1,0 @@
-This folder contains extracted Fisher Vector of test video
