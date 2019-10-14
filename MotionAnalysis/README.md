@@ -32,13 +32,12 @@ If you use the codes, please cite the following papers.
 ```
 
 ## Usage
-1. [BashExtract_DenseTrajectory.sh](https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/blob/master/MotionAnalysis/BashExtract_DenseTrajectory.sh): bash extract motion trajectory features of videos. You should download and compile the [dense trajecotry codes](https://lear.inrialpes.fr/people/wang/dense_trajectories) first. Put this bash file in the root folder of the dense trajectory codes.
+1. [BashExtract_DenseTrajectory.sh](https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/blob/master/MotionAnalysis/BashExtract_DenseTrajectory.sh): Bash extract motion trajectory features of videos. You should download and compile the [dense trajecotry codes](https://lear.inrialpes.fr/people/wang/dense_trajectories) first. Put this bash file in the root folder of the dense trajectory codes. This code only works for the Linux/MacOS system.
 
 
-2. [WindExperimentMain_MLDS.m](https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/blob/master/MLDS_Experiment/WindExperimentMain_MLDS.m): This is the main code for the experiment. The collected data will be stored in the results folders for the [Silk condition](https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/tree/master/MLDS_Experiment/Bending_Silk/resultsFolder) and the [Cotton condition](https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/tree/master/MLDS_Experiment/Bending_Cotton/resultsFolder).
+2. [BaseLine.m](https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/blob/master/MotionAnalysis/SVM_model/BaseLine.m): After extracting the dense motion trajectory features of all the training and testing videos, put the extracted trajectory features in the [test](https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/tree/master/MotionAnalysis/SVM_model/test) folder and the [train](https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/tree/master/MotionAnalysis/SVM_model/train) folder Next, run this code to train the SVM model and plot the results. 
    
-3. We provided [codes](https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/tree/master/MLDS_Experiment/DataAnalysis) for plotting the perceptual scales recovered by MLDS.
-   * [DataAnalysis_MLDS.m](https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/tree/master/MLDS_Experiment/DataAnalysis/DataAnalysis_MLDS.m): This code needs to be run first, it creates "mydata.txt" to be used by [Plot_MLDS.R](https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/tree/master/MLDS_Experiment/DataAnalysis/Plot_MLDS.R)
-   * [Plot_MLDS.R](https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/tree/master/MLDS_Experiment/DataAnalysis/Plot_MLDS.R): This code plots the individual percetual scale for each participant and the average perceptual scale for all participants.
+
+
 ## Contact
 If you have any questions, please contact "wb1918a@american.edu".
