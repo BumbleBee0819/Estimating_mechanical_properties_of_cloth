@@ -7,7 +7,7 @@
 ![Visitors in today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=dense_traject)
 
 
-<h1> Estimating mechanical properties of cloth from videos using dense motion trajectories: Human psychophysics and machine learning </h1>
+<h1 align="center"> Estimating mechanical properties of cloth from videos using dense motion trajectories: Human psychophysics and machine learning </h1>
 
 
  <p align="center">Perceptual scale of cloth stiffness</strong></p>
@@ -24,7 +24,7 @@
     
     
 In this project, we use Blender (2.7.6) rendered cloth animations as our dataset. 
-* We first used a maximum likelihood differential scaling (MLDS) method to measure the human perceptual scale of cloth stiffness. Codes and instructions of this experiment can be found in the [MLDS_Experiment](https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/tree/master/MLDS_Experiment) folder. 
+* First, we used a maximum likelihood differential scaling (MLDS) method to measure the human perceptual scale of cloth stiffness. Codes and instructions of this experiment can be found in the [MLDS_Experiment](https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/tree/master/MLDS_Experiment) folder. 
 
 
 * Next, we extracted the dense motion trajectory features of all the cloth videos, and built a support vector regression (SVR) model with these trajectory features to predict the human perceptual scale of stiffness. Codes and instruction of this experiment can be found in the [MotionAnalysis](https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/tree/master/MotionAnalysis) folder.
