@@ -20,5 +20,5 @@
 
 <p align="center">
     <img width=90% src="MotionAnalysis/Z_demo/demo.gif">
-<p align="center">Computational modeling of human perceptual scale</strong></p>
+    <p align="center">Computational modeling of human perceptual scale</strong></p>
     
