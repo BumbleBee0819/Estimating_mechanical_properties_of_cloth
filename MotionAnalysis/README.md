@@ -12,19 +12,16 @@
     <img width=90% src="Z_demo/demo.gif">
 
 
-This folder contains the codes for the in-lab triplet maximum likelihood differential scaling (MLDS) psychophysics experiment and the data analysis. We used these codes in our paper [Estimating mechanical properties of cloth from videos using dense motion trajectories: Human psychophysics and machine learning
-](https://jov.arvojournals.org/article.aspx?articleid=2682351). Codes in this repository are supposed to work as a template such that they should work for all triplet maximum likelihood differential scaling (MLDS) experiments with little modifications. See the project page [here](https://sites.google.com/site/wenyanbi0819/website-builder/jov_185_12?authuser=0).
+We train a support vector regression (SVR) model with the dense motion trajectory motion features to predict human percetual scale of the cloth stiffness from videos. These codes are used in our paper [Estimating mechanical properties of cloth from videos using dense motion trajectories: Human psychophysics and machine learning
+](https://jov.arvojournals.org/article.aspx?articleid=2682351). 
 
 ## Dependencies
-The codes require the [Psychtoolbox](http://psychtoolbox.org/credits/) in Matlab. 
+The codes require the [VLFeat Matlab toolbox](http://www.vlfeat.org/download.html) (vlfeat-0.9.20)in Matlab. 
 
 ## References
 If you use the codes, please cite the following papers.
 ```
 1. Bi, W., Jin, P., Nienborg, H., & Xiao, B. (2018). Estimating mechanical properties of cloth from videos using dense motion trajectories: Human psychophysics and machine learning. Journal of Vision, 18(5):12, 1–20.
-2. Brainard, D. H., & Vision, S. (1997). The psychophysics toolbox. Spatial vision, 10, 433-436.
-3. Knoblauch, K., & Maloney, L. T. (2008). MLDS: Maximum likelihood difference scaling in R. Journal of Statistical Software, 25(2), 1–26.
-4. Maloney, L. T., & Yang, J. N. (2003). Maximum likelihood difference scaling. Journal of Vision, 3(8): 5, 573–585.
 ```
 
 ## Usage
