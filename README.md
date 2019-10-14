@@ -23,7 +23,7 @@
     <img width=90% src="MotionAnalysis/Z_demo/demo.gif">
     
     
-In this project, we used Blender (2.7.6) rendered cloth animations as our dataset. 
+In this project, we use Blender (2.7.6) rendered cloth animations as our dataset. 
 * We first used a maximum likelihood differential scaling (MLDS) method to measure the human perceptual scale of cloth stiffness. Codes and instructions of this experiment can be found in the [MLDS_Experiment folder](https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/tree/master/MLDS_Experiment). 
 
 
