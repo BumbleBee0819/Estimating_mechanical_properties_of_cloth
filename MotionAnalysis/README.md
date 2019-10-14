@@ -16,7 +16,7 @@ We train a support vector regression (SVR) model with the dense motion trajector
 ](https://jov.arvojournals.org/article.aspx?articleid=2682351). 
 
 ## Dependencies
-The codes require the [VLFeat Matlab toolbox](http://www.vlfeat.org/download.html) (vlfeat-0.9.20)in Matlab. 
+* [VLFeat Matlab toolbox](http://www.vlfeat.org/download.html) (vlfeat-0.9.20). 
 
 ## References
 If you use the codes, please cite the following papers.
