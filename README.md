@@ -10,15 +10,16 @@
 <h1> Estimating mechanical properties of cloth from videos using dense motion trajectories: Human psychophysics and machine learning </h1>
 
 
-
+ <p align="center">Perceptual scale of cloth stiffness</strong></p>
 <p align="center">
     <img width=20% src="MLDS_Experiment/Z_demo/Cotton_BendingStiffness=25_Scene1.gif">
     <img width=20% src="MLDS_Experiment/Z_demo/Cotton_BendingStiffness=25_Scene2.gif">
     <img width=20% src="MLDS_Experiment/Z_demo/Silk_BendingStiffness=25_Scene1.gif">
     <img width=20% src="MLDS_Experiment/Z_demo/Silk_BendingStiffness=25_Scene2.gif">
- <p align="center">Perceptual scale of cloth stiffness</strong></p>
 
+ 
+<p align="center">Computational modeling of human perceptual scale</strong></p>
 <p align="center">
     <img width=90% src="MotionAnalysis/Z_demo/demo.gif">
-    <p align="center">Computational modeling of human perceptual scale</strong></p>
+    
     
