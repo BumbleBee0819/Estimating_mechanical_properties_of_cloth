@@ -13,7 +13,7 @@
 
 
 We train a support vector regression (SVR) model with the dense motion trajectory motion features to predict human percetual scale of the cloth stiffness from videos. These codes are used in our paper [Estimating mechanical properties of cloth from videos using dense motion trajectories: Human psychophysics and machine learning
-](https://jov.arvojournals.org/article.aspx?articleid=2682351). 
+](https://jov.arvojournals.org/article.aspx?articleid=2682351). See the project page [here](https://sites.google.com/site/wenyanbi0819/website-builder/jov_185_12?authuser=0).
 
 ## Dependencies
 * [VLFeat Matlab toolbox](http://www.vlfeat.org/download.html) (vlfeat-0.9.20). 
