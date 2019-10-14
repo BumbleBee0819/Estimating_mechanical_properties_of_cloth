@@ -36,7 +36,7 @@ In this project, we use Blender (2.7.6) rendered cloth animations as our dataset
     <img width=16% src="MotionAnalysis/Z_demo/vid_dt.gif">
     <img width=16% src="MotionAnalysis/Z_demo/vid1_hof.gif">
     <img width=16% src="MotionAnalysis/Z_demo/h_vid1.gif">
-    <img width=16% src="MotionAnalysis/Z_demo/u_vid1">
+    <img width=16% src="MotionAnalysis/Z_demo/u_vid1.gif">
     <img width=16% src="MotionAnalysis/Z_demo/v_vid1.gif">
 <p align="center">Dense motion trajectory features</strong></p>
 
