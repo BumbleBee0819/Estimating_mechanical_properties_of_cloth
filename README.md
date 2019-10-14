@@ -3,6 +3,7 @@
 [![Matlab](https://img.shields.io/badge/language-Matlab-red.svg)]()
 [![R](https://img.shields.io/badge/language-R-red.svg)]()
 [![BashScript](https://img.shields.io/badge/language-BashScript-red.svg)]()
+[![C](https://img.shields.io/badge/language-C-red.svg)]()
 ![Total visitor](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=dense_traject)
 ![Visitors in today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=dense_traject)
 
