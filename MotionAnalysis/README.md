@@ -9,11 +9,7 @@
 <h1> Predicting human perceptual scale of stiffness with support vector regression (SVR) </h1>
 
 <p align="center">
-    <img width=23% src="Z_demo/Cotton_BendingStiffness=25_Scene1.gif">
-    <img width=23% src="Z_demo/Cotton_BendingStiffness=25_Scene2.gif">
-    <img width=23% src="Z_demo/Silk_BendingStiffness=25_Scene1.gif">
-    <img width=23% src="Z_demo/Silk_BendingStiffness=25_Scene2.gif">
-
+    <img src="Z_demo/demo.gif">
 
 This folder contains the codes for the in-lab triplet maximum likelihood differential scaling (MLDS) psychophysics experiment and the data analysis. We used these codes in our paper [Estimating mechanical properties of cloth from videos using dense motion trajectories: Human psychophysics and machine learning
 ](https://jov.arvojournals.org/article.aspx?articleid=2682351). Codes in this repository are supposed to work as a template such that they should work for all triplet maximum likelihood differential scaling (MLDS) experiments with little modifications. See the project page [here](https://sites.google.com/site/wenyanbi0819/website-builder/jov_185_12?authuser=0).
