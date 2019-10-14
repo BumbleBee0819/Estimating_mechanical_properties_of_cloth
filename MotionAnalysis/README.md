@@ -17,11 +17,18 @@ We train a support vector regression (SVR) model with the dense motion trajector
 
 ## Dependencies
 * [VLFeat Matlab toolbox](http://www.vlfeat.org/download.html) (vlfeat-0.9.20). 
+* [Yael for matlab](http://yael.gforge.inria.fr/matlab_interface.html)(yael_v438).
+* [Dense trajectories video descriptors](https://lear.inrialpes.fr/people/wang/dense_trajectories) (third version).
+* [ffmpeg-0.11.1](https://ffmpeg.org/releases/).
+
+
 
 ## References
 If you use the codes, please cite the following papers.
 ```
 1. Bi, W., Jin, P., Nienborg, H., & Xiao, B. (2018). Estimating mechanical properties of cloth from videos using dense motion trajectories: Human psychophysics and machine learning. Journal of Vision, 18(5):12, 1–20.
+2. Wang, H., Kläser, A., Schmid, C., & Cheng-Lin, L. (2011, June). Action recognition by dense trajectories.
+3. Wang, H., & Schmid, C. (2013). Action recognition with improved trajectories. In Proceedings of the IEEE international conference on computer vision (pp. 3551-3558).
 ```
 
 ## Usage
