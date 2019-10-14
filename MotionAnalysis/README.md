@@ -6,7 +6,7 @@
 ![Visitors in today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=motion_analysis)
 
 
-<h1> In-lab Psychophysics Experiment: Triplet Maximum likelihood differential scaling (MLDS) </h1>
+<h1> Predicting human perceptual scale of stiffness with support vector regression (SVR) </h1>
 
 <p align="center">
     <img width=23% src="Z_demo/Cotton_BendingStiffness=25_Scene1.gif">
