@@ -21,7 +21,7 @@ In this project, we use Blender (2.7.6) rendered cloth animations as our dataset
     <img width=20% src="MLDS_Experiment/Z_demo/Silk_BendingStiffness=25_Scene2.gif">
 <p align="center">Perceptual scale of cloth stiffness</strong></p>
 
-*
+
 * Next, we extracted the dense motion trajectory features of all the cloth videos, and built a support vector regression (SVR) model with these trajectory features to predict the human perceptual scale of stiffness. Codes and instruction of this experiment can be found in the [MotionAnalysis](https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/tree/master/MotionAnalysis) folder.
 
 <p align="center">
