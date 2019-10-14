@@ -23,7 +23,7 @@ In this project, we use Blender (2.7.6) rendered cloth animations as our dataset
 
 
 <div class="image12">
-    <p align="center"><img width = 80% src="MLDS_Experiment/Z_demo/ui.gif"></p>
+    <p align="center"><img width = 50% src="MLDS_Experiment/Z_demo/ui.gif"></p>
 </div>
 <p align="center">Maximum likelihood differential scaling (MLDS)</strong></p>
 
