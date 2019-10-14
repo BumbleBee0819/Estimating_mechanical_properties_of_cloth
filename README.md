@@ -10,10 +10,10 @@
 <h1 align="center"> Estimating mechanical properties of cloth from videos using dense motion trajectories: Human psychophysics and machine learning </h1>
 
 <p align="center">
-    <img width=20% src="MLDS_Experiment/Z_demo/Cotton_BendingStiffness=25_Scene1.gif">
-    <img width=20% src="MLDS_Experiment/Z_demo/Cotton_BendingStiffness=25_Scene2.gif">
-    <img width=20% src="MLDS_Experiment/Z_demo/Silk_BendingStiffness=25_Scene1.gif">
-    <img width=20% src="MLDS_Experiment/Z_demo/Silk_BendingStiffness=25_Scene2.gif">
+    <img width=23% src="MLDS_Experiment/Z_demo/Cotton_BendingStiffness=25_Scene1.gif">
+    <img width=23% src="MLDS_Experiment/Z_demo/Cotton_BendingStiffness=25_Scene2.gif">
+    <img width=23% src="MLDS_Experiment/Z_demo/Silk_BendingStiffness=25_Scene1.gif">
+    <img width=23% src="MLDS_Experiment/Z_demo/Silk_BendingStiffness=25_Scene2.gif">
 
 
 
@@ -23,7 +23,7 @@ In this project, we use Blender (2.7.6) rendered cloth animations as our dataset
 
 
 <div class="image12">
-    <p align="center"><img src="MLDS_Experiment/Z_demo/ui.gif"></p>
+    <p align="center"><img width = 80% src="MLDS_Experiment/Z_demo/ui.gif"></p>
 </div>
 <p align="center">Maximum likelihood differential scaling (MLDS)</strong></p>
 
