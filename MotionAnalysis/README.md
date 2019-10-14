@@ -32,10 +32,8 @@ If you use the codes, please cite the following papers.
 ```
 
 ## Usage
-1. The experimental design is explained in [our paper](https://jov.arvojournals.org/article.aspx?articleid=2682351).
-<div class="image12">
-    <p align="center"><img src="Z_demo/ui.gif"></p>
-</div>
+1. [BashExtract_DenseTrajectory.sh] (https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/blob/master/MotionAnalysis/BashExtract_DenseTrajectory.sh): bash extract motion trajectory features of videos. You should download and compile the [dense trajecotry codes] (https://lear.inrialpes.fr/people/wang/dense_trajectories) first. Put this bash file in the root folder of the dense trajectory codes.
+
 
 2. [WindExperimentMain_MLDS.m](https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/blob/master/MLDS_Experiment/WindExperimentMain_MLDS.m): This is the main code for the experiment. The collected data will be stored in the results folders for the [Silk condition](https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/tree/master/MLDS_Experiment/Bending_Silk/resultsFolder) and the [Cotton condition](https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/tree/master/MLDS_Experiment/Bending_Cotton/resultsFolder).
    
