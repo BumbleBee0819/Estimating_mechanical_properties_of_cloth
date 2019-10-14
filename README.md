@@ -32,12 +32,13 @@ In this project, we use Blender (2.7.6) rendered cloth animations as our dataset
 * Next, we extracted the dense motion trajectory features of all the cloth videos.
 
 <p align="center">
-    <img width=16% src="MotionAnalysis/Z_demo/vid1.gif">
-    <img width=16% src="MotionAnalysis/Z_demo/vid_dt.gif">
-    <img width=16% src="MotionAnalysis/Z_demo/vid1_hof.gif">
-    <img width=16% src="MotionAnalysis/Z_demo/h_vid1.gif">
-    <img width=16% src="MotionAnalysis/Z_demo/u_vid1.gif">
-    <img width=16% src="MotionAnalysis/Z_demo/v_vid1.gif">
+    <img width=45% src="MotionAnalysis/Z_demo/vid1.gif">
+    <img width=45% src="MotionAnalysis/Z_demo/vid_dt.gif">
+<p align="center">
+    <img width=24% src="MotionAnalysis/Z_demo/vid1_hof.gif">
+    <img width=24% src="MotionAnalysis/Z_demo/h_vid1.gif">
+    <img width=24% src="MotionAnalysis/Z_demo/u_vid1.gif">
+    <img width=24% src="MotionAnalysis/Z_demo/v_vid1.gif">
 <p align="center">Dense motion trajectory features</strong></p>
 
 * Using the extracted dense motion trajectory features, we built a support vector regression (SVR) model to predict the human perceptual scale of stiffness. Codes and instruction of this experiment can be found in the [MotionAnalysis](https://github.com/BumbleBee0819/Estimating_mechanical_properties_of_cloth/tree/master/MotionAnalysis) folder.
