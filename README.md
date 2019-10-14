@@ -13,10 +13,10 @@
 
 <p align="center">
     Perceptual scale of cloth stiffness
-    <img width=23% src="MLDS_Experiment/Z_demo/Cotton_BendingStiffness=25_Scene1.gif">
-    <img width=23% src="MLDS_Experiment/Z_demo/Cotton_BendingStiffness=25_Scene2.gif">
-    <img width=23% src="MLDS_Experiment/Z_demo/Silk_BendingStiffness=25_Scene1.gif">
-    <img width=23% src="MLDS_Experiment/Z_demo/Silk_BendingStiffness=25_Scene2.gif">
+    <img width=20% src="MLDS_Experiment/Z_demo/Cotton_BendingStiffness=25_Scene1.gif">
+    <img width=20% src="MLDS_Experiment/Z_demo/Cotton_BendingStiffness=25_Scene2.gif">
+    <img width=20% src="MLDS_Experiment/Z_demo/Silk_BendingStiffness=25_Scene1.gif">
+    <img width=20% src="MLDS_Experiment/Z_demo/Silk_BendingStiffness=25_Scene2.gif">
  
 
 <p align="center">
