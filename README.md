@@ -61,6 +61,8 @@ If you use the codes, please cite the following papers.
 6. Wang, H., & Schmid, C. (2013). Action recognition with improved trajectories. In Proceedings of the IEEE international conference on computer vision (pp. 3551-3558).
 ```
 
+## Project Page
+See the project page [here](https://sites.google.com/site/wenyanbi0819/website-builder/jov_185_12?authuser=0)
 
 ## Contact
 If you have any questions, please contact "wb1918a@american.edu".
