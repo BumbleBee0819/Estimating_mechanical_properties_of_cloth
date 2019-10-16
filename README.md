@@ -62,7 +62,7 @@ If you use the codes, please cite the following papers.
 ```
 
 ## Project Page
-See the project page [here](https://sites.google.com/site/wenyanbi0819/website-builder/jov_185_12?authuser=0)
+More information can be found in the [project page](https://sites.google.com/site/wenyanbi0819/website-builder/jov_185_12?authuser=0).
 
 ## Contact
 If you have any questions, please contact "wb1918a@american.edu".
