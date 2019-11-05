@@ -4,8 +4,8 @@
 [![R](https://img.shields.io/badge/language-R-red.svg)]()
 [![BashScript](https://img.shields.io/badge/language-BashScript-red.svg)]()
 [![C](https://img.shields.io/badge/language-C-red.svg)]()
-<!--![Total visitor](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=dense_traject)
-![Visitors in today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=dense_traject)-->
+![Total visitor](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=dense_traject)
+![Visitors in today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=dense_traject)
 > since 2019-10-13
 
 <h1 align="center"> Estimating mechanical properties of cloth from videos using dense motion trajectories: Human psychophysics and machine learning </h1>
